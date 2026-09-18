@@ -9,9 +9,23 @@ The system’s core architecture is deeply grounded in two foundational framewor
 
 ---
 
-# 🌍 Cultural Bias Benchmark System for LLMs
+## My contribution
 
-## 1. System Overview & Theoretical Foundation
+This is a fork of the original team repository. My work on the project:
+
+- Designed and wrote the weighted question set used to probe the models across
+  Erin Meyer's eight cultural dimensions — the core evaluation instrument of
+  the benchmark.
+- Ran the models against the benchmark and scored their responses dimension by
+  dimension.
+- Annotated scenarios under a blind design, with inter-annotator agreement
+  measured through Cohen's kappa.
+- Reviewed the overall behaviour of the pipeline and contributed across every
+  stage of the project.
+
+---
+
+## 2. System Overview & Theoretical Foundation
 The **Cultural Bias Benchmark System** is an automated, enterprise-grade evaluation framework engineered to measure, analyze, and quantify how different Large Language Models (LLMs) handle cross-cultural business communication, organizational behavior, and systemic cultural biases[cite: 3]. 
 
 The system’s core architecture is deeply grounded in two foundational frameworks of intercultural management[cite: 3]:
